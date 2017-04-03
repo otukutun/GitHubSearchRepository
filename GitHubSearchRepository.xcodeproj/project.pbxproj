@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		2C6392B31E9214A100D2CE48 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6392B21E9214A100D2CE48 /* main.swift */; };
+		2C6392BA1E92150400D2CE48 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6392B91E92150400D2CE48 /* User.swift */; };
+		2C6392BC1E92152C00D2CE48 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6392BB1E92152C00D2CE48 /* Repository.swift */; };
+		2C6392BF1E92158C00D2CE48 /* JSONDecodeError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6392BE1E92158C00D2CE48 /* JSONDecodeError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		2C6392AF1E9214A100D2CE48 /* GitHubSearchRepository */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GitHubSearchRepository; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C6392B21E9214A100D2CE48 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		2C6392B91E92150400D2CE48 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		2C6392BB1E92152C00D2CE48 /* Repository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		2C6392BE1E92158C00D2CE48 /* JSONDecodeError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONDecodeError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				2C6392B21E9214A100D2CE48 /* main.swift */,
+				2C6392BE1E92158C00D2CE48 /* JSONDecodeError.swift */,
+				2C6392B91E92150400D2CE48 /* User.swift */,
+				2C6392BB1E92152C00D2CE48 /* Repository.swift */,
 			);
 			path = GitHubSearchRepository;
 			sourceTree = "<group>";
@@ -121,7 +130,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C6392BF1E92158C00D2CE48 /* JSONDecodeError.swift in Sources */,
+				2C6392BA1E92150400D2CE48 /* User.swift in Sources */,
 				2C6392B31E9214A100D2CE48 /* main.swift in Sources */,
+				2C6392BC1E92152C00D2CE48 /* Repository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
