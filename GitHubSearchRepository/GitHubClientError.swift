@@ -13,5 +13,5 @@ enum GitHubClientError : Error {
     
     case responseParseError(Error)
     
-    //case apiError(GitHubAPIError)
+    case apiError(GitHubAPIError)
 }
