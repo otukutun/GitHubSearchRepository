@@ -17,6 +17,7 @@
 		2CA6D7911E95AA65006C1702 /* GitHubAPIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA6D7901E95AA65006C1702 /* GitHubAPIError.swift */; };
 		2CA6D7941E95AEE0006C1702 /* GitHubRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA6D7931E95AEE0006C1702 /* GitHubRequest.swift */; };
 		2CA6D7961E95AF98006C1702 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA6D7951E95AF98006C1702 /* HTTPMethod.swift */; };
+		2CA6D7981E9760A4006C1702 /* GitHubAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA6D7971E9760A4006C1702 /* GitHubAPI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,6 +44,7 @@
 		2CA6D7901E95AA65006C1702 /* GitHubAPIError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GitHubAPIError.swift; sourceTree = "<group>"; };
 		2CA6D7931E95AEE0006C1702 /* GitHubRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GitHubRequest.swift; sourceTree = "<group>"; };
 		2CA6D7951E95AF98006C1702 /* HTTPMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		2CA6D7971E9760A4006C1702 /* GitHubAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GitHubAPI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				2CA6D7931E95AEE0006C1702 /* GitHubRequest.swift */,
 				2CA6D7951E95AF98006C1702 /* HTTPMethod.swift */,
+				2CA6D7971E9760A4006C1702 /* GitHubAPI.swift */,
 			);
 			name = Request;
 			sourceTree = "<group>";
@@ -173,6 +176,7 @@
 				2CA6D7911E95AA65006C1702 /* GitHubAPIError.swift in Sources */,
 				2CA6D7941E95AEE0006C1702 /* GitHubRequest.swift in Sources */,
 				2CA6D7961E95AF98006C1702 /* HTTPMethod.swift in Sources */,
+				2CA6D7981E9760A4006C1702 /* GitHubAPI.swift in Sources */,
 				2C6392BC1E92152C00D2CE48 /* Repository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
